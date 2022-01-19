@@ -16,9 +16,6 @@ const CryptoCardStyled = styled.div`
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    padding: 24px, 40px, 24px, 40px;
-    position: absolute;
-    top: 20px;
     width: 100%;
     max-width: 256px;
 
@@ -26,10 +23,8 @@ const CryptoCardStyled = styled.div`
         content: '';
         display: block;
         height: 100%;
-        left: 0;
         pointer-events: none;
         position: absolute;
-        top: 0;
         transition: all 0.3s ease;
         width: 100%;
         z-index: 0;
