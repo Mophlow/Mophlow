@@ -5,20 +5,16 @@ import resetCSS from '../../styles/reset';
 import { getShade } from '../../styles/colors';
 
 const CryptoCardStyled = styled.div`
-    align-items: center;
     background: ${(props) => props.color};
     border: 1px solid ${getShade('light', 10)};
     border-radius: 16px;
     box-sizing: border-box;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    left: 20px;
     overflow: hidden;
-    padding: 24px, 40px, 24px, 40px;
-    position: absolute;
     ${resetCSS}
-    top: 20px;
     width: 100%;
     max-width: 256px;
     :after {
